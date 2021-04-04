@@ -1,0 +1,149 @@
+<template>
+    <div class="slds-card">
+        <div class="slds-tabs_default slds-tabs_medium">
+            <ul class="slds-tabs_default__nav" role="tablist">
+              <li class="slds-tabs_default__item slds-is-active" title="Item One" role="presentation">
+                <a class="slds-tabs_default__link" href="#" role="tab" tabindex="0" aria-selected="true" aria-controls="tab-default-1" id="tab-default-1__item">Orders</a>
+              </li>
+              <li class="slds-tabs_default__item" title="Item Two" role="presentation">
+                <a class="slds-tabs_default__link" href="#" role="tab" tabindex="-1" aria-selected="false" aria-controls="tab-default-2" id="tab-default-2__item">Sample Orders</a>
+              </li>
+              <li class="slds-tabs_default__item" title="Item Three" role="presentation">
+                <a class="slds-tabs_default__link" href="#" role="tab" tabindex="-1" aria-selected="false" aria-controls="tab-default-3" id="tab-default-3__item">Discounts</a>
+              </li>
+            </ul>
+            <div id="tab-default-1" class="slds-tabs_default__content slds-show" role="tabpanel" aria-labelledby="tab-default-1__item">
+                <ul class="slds-accordion">
+                    <li class="slds-accordion__list-item">
+                      <section class="slds-accordion__section slds-is-open">
+                        <div class="slds-accordion__summary">
+                          <h2 class="slds-accordion__summary-heading">
+                            <button class="slds-button slds-button_reset slds-accordion__summary-action" aria-controls="referenceId-24" aria-expanded="true" title="Accordion summary">
+                              <svg class="slds-accordion__summary-action-icon slds-button__icon slds-button__icon_left" aria-hidden="true">
+                                <use xlink:href={svgURL}></use>
+                              </svg>
+                              <span class="slds-accordion__summary-content">Contact Information</span>
+                            </button>
+                          </h2>
+                          <div class="slds-dropdown-trigger slds-dropdown-trigger_click">
+                            <button class="slds-button slds-button_icon slds-button_icon-border-filled slds-button_icon-x-small" aria-haspopup="true" title="Show More">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="300" height="200">
+                                <use xlink:href={svgURL}></use>
+                              </svg>
+                              <span class="slds-assistive-text">Show More</span>
+                            </button>
+                            <div class="slds-dropdown slds-dropdown_actions slds-dropdown_right">
+                              <ul class="slds-dropdown__list" role="menu">
+                                <li class="slds-dropdown__item" role="presentation">
+                                  <a href="#" role="menuitem" tabindex="0">
+                                    <span class="slds-truncate" title="Action One">Action One</span>
+                                  </a>
+                                </li>
+                                <li class="slds-dropdown__item" role="presentation">
+                                  <a href="#" role="menuitem" tabindex="-1">
+                                    <span class="slds-truncate" title="Action Two">Action Two</span>
+                                  </a>
+                                </li>
+                                <li class="slds-dropdown__item" role="presentation">
+                                  <a href="#" role="menuitem" tabindex="-1">
+                                    <span class="slds-truncate" title="Action Three">Action Three</span>
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="slds-accordion__content" id="referenceId-24">Lorem Ipsum is simply dummy text of the printing and typesetting industry. ... Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</div>
+                      </section>
+                    </li>
+                    <li class="slds-accordion__list-item">
+                      <section class="slds-accordion__section">
+                        <div class="slds-accordion__summary">
+                          <h2 class="slds-accordion__summary-heading">
+                            <button class="slds-button slds-button_reset slds-accordion__summary-action" aria-controls="referenceId-25" aria-expanded="false" title="Accordion summary">
+                              <svg class="slds-accordion__summary-action-icon slds-button__icon slds-button__icon_left" aria-hidden="true">
+                                <use xlink:href={svgURL}></use>
+                              </svg>
+                              <span class="slds-accordion__summary-content">Shipping Information</span>
+                            </button>
+                          </h2>
+                          <div class="slds-dropdown-trigger slds-dropdown-trigger_click">
+                            <button class="slds-button slds-button_icon slds-button_icon-border-filled slds-button_icon-x-small" aria-haspopup="true" title="Show More">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="300" height="200">
+                                <use xlink:href={svgURL}></use>
+                              </svg>
+                              <span class="slds-assistive-text">Show More</span>
+                            </button>
+                            <div class="slds-dropdown slds-dropdown_actions slds-dropdown_right">
+                              <ul class="slds-dropdown__list" role="menu">
+                                <li class="slds-dropdown__item" role="presentation">
+                                  <a href="#" role="menuitem" tabindex="0">
+                                    <span class="slds-truncate" title="Action One">Action One</span>
+                                  </a>
+                                </li>
+                                <li class="slds-dropdown__item" role="presentation">
+                                  <a href="#" role="menuitem" tabindex="-1">
+                                    <span class="slds-truncate" title="Action Two">Action Two</span>
+                                  </a>
+                                </li>
+                                <li class="slds-dropdown__item" role="presentation">
+                                  <a href="#" role="menuitem" tabindex="-1">
+                                    <span class="slds-truncate" title="Action Three">Action Three</span>
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                        <div hidden="" class="slds-accordion__content" id="referenceId-25">Lorem Ipsum is simply dummy text of the printing and typesetting industry. ... Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. B</div>
+                      </section>
+                    </li>
+                    <li class="slds-accordion__list-item">
+                      <section class="slds-accordion__section">
+                        <div class="slds-accordion__summary">
+                          <h2 class="slds-accordion__summary-heading">
+                            <button class="slds-button slds-button_reset slds-accordion__summary-action" aria-controls="referenceId-26" aria-expanded="false" title="Accordion summary">
+                              <svg class="slds-accordion__summary-action-icon slds-button__icon slds-button__icon_left" aria-hidden="true">
+                                <use xlink:href={svgURL}></use>
+                              </svg>
+                              <span class="slds-accordion__summary-content">Payment Information</span>
+                            </button>
+                          </h2>
+                          <div class="slds-dropdown-trigger slds-dropdown-trigger_click">
+                            <button class="slds-button slds-button_icon slds-button_icon-border-filled slds-button_icon-x-small" aria-haspopup="true" title="Show More">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="300" height="200">
+                                <use xlink:href={svgURL}></use>
+                              </svg>
+                              <span class="slds-assistive-text">Show More</span>
+                            </button>
+                            <div class="slds-dropdown slds-dropdown_actions slds-dropdown_right">
+                              <ul class="slds-dropdown__list" role="menu">
+                                <li class="slds-dropdown__item" role="presentation">
+                                  <a href="#" role="menuitem" tabindex="0">
+                                    <span class="slds-truncate" title="Action One">Action One</span>
+                                  </a>
+                                </li>
+                                <li class="slds-dropdown__item" role="presentation">
+                                  <a href="#" role="menuitem" tabindex="-1">
+                                    <span class="slds-truncate" title="Action Two">Action Two</span>
+                                  </a>
+                                </li>
+                                <li class="slds-dropdown__item" role="presentation">
+                                  <a href="#" role="menuitem" tabindex="-1">
+                                    <span class="slds-truncate" title="Action Three">Action Three</span>
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                        <div hidden="" class="slds-accordion__content" id="referenceId-26">Lorem Ipsum is simply dummy text of the printing and typesetting industry. ... Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. C</div>
+                      </section>
+                    </li>
+                  </ul>
+            </div>
+            <div id="tab-default-2" class="slds-tabs_default__content slds-hide" role="tabpanel" aria-labelledby="tab-default-2__item">Item Two Content</div>
+            <div id="tab-default-3" class="slds-tabs_default__content slds-hide" role="tabpanel" aria-labelledby="tab-default-3__item">Item Three Content</div>
+          </div>
+    </div>
+</template>
