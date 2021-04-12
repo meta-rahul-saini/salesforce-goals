@@ -1,0 +1,18 @@
+[{
+    "Name": "Raghu",    
+    "Id": "a0D2w000007g4V3EAI",    
+    "Skills__c": "AI;ML",    
+    "Team__c": "a0B2w000003hMtkEAE"
+},
+{
+    "Name": "Rahul",    
+    "Id": "a0D2w000007g4V3EA2",    
+    "Skills__c": "ML;DS",    
+    "Team__c": "a0B2w000003hMtkEAE"
+},
+{
+    "Name": "Rakesh",    
+    "Id": "a0D2w000007g4V3EA3",    
+    "Skills__c": "AI",    
+    "Team__c": "a0B2w000003hMtkEAE"
+}]

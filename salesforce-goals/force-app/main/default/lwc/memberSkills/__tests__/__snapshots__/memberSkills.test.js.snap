@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`c-member-skills should render 1`] = `
+<c-member-skills>
+  #shadow-root(open)
+    <lightning-card>
+      #shadow-root(open)
+        <slot />
+        <slot
+          name="actions"
+        />
+        <slot
+          name="footer"
+        />
+        <slot
+          name="title"
+        />
+      <h3
+        slot="title"
+      >
+        <lightning-icon>
+          #shadow-root(open)
+        </lightning-icon>
+        Add Member
+      </h3>
+      <div
+        class="slds-card-body"
+      >
+        <lightning-record-form>
+          #shadow-root(open)
+        </lightning-record-form>
+      </div>
+    </lightning-card>
+</c-member-skills>
+`;
+
+exports[`c-member-skills should render correct heading title 1`] = `
+<c-member-skills>
+  #shadow-root(open)
+    <lightning-card>
+      #shadow-root(open)
+        <slot />
+        <slot
+          name="actions"
+        />
+        <slot
+          name="footer"
+        />
+        <slot
+          name="title"
+        />
+      <h3
+        slot="title"
+      >
+        <lightning-icon>
+          #shadow-root(open)
+        </lightning-icon>
+        Add Member
+      </h3>
+      <div
+        class="slds-card-body"
+      >
+        <lightning-record-form>
+          #shadow-root(open)
+        </lightning-record-form>
+      </div>
+    </lightning-card>
+</c-member-skills>
+`;

@@ -1,0 +1,439 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`c-team-list on select an options 1`] = `
+<c-team-list>
+  #shadow-root(open)
+    <lightning-card>
+      #shadow-root(open)
+        <slot />
+        <slot
+          name="actions"
+        />
+        <slot
+          name="footer"
+        />
+        <slot
+          name="title"
+        />
+      <h3
+        slot="title"
+      >
+        <lightning-icon>
+          #shadow-root(open)
+        </lightning-icon>
+        Member List
+      </h3>
+      <div
+        class="slds-card-body"
+      >
+        <lightning-combobox>
+          #shadow-root(open)
+        </lightning-combobox>
+      </div>
+      <div>
+        <hr />
+        <lightning-card>
+          #shadow-root(open)
+            <slot />
+            <slot
+              name="actions"
+            />
+            <slot
+              name="footer"
+            />
+            <slot
+              name="title"
+            />
+          <dl
+            class="slds-list_horizontal slds-wrap"
+          >
+            <dt
+              class="slds-item_label slds-text-color_weak slds-truncate"
+              title="Name"
+            >
+              Name:
+            </dt>
+            <dd
+              class="slds-item_detail slds-truncate"
+              title="Description for first label"
+            >
+              Raghu
+            </dd>
+            <dt
+              class="slds-item_label slds-text-color_weak slds-truncate"
+              title="Team"
+            >
+              Team
+            </dt>
+            <dd
+              class="slds-item_detail slds-truncate"
+              title="Description for second label"
+            >
+              a0B2w000003hMtkEAE
+            </dd>
+            <dt
+              class="slds-item_label slds-text-color_weak slds-truncate"
+              title="Skills"
+            >
+              Skills
+            </dt>
+            <dd
+              class="slds-item_detail slds-truncate"
+              title="Description for second label"
+            >
+              AI;ML
+            </dd>
+          </dl>
+        </lightning-card>
+      </div>
+      <div>
+        <hr />
+        <lightning-card>
+          #shadow-root(open)
+            <slot />
+            <slot
+              name="actions"
+            />
+            <slot
+              name="footer"
+            />
+            <slot
+              name="title"
+            />
+          <dl
+            class="slds-list_horizontal slds-wrap"
+          >
+            <dt
+              class="slds-item_label slds-text-color_weak slds-truncate"
+              title="Name"
+            >
+              Name:
+            </dt>
+            <dd
+              class="slds-item_detail slds-truncate"
+              title="Description for first label"
+            >
+              Rahul
+            </dd>
+            <dt
+              class="slds-item_label slds-text-color_weak slds-truncate"
+              title="Team"
+            >
+              Team
+            </dt>
+            <dd
+              class="slds-item_detail slds-truncate"
+              title="Description for second label"
+            >
+              a0B2w000003hMtkEAE
+            </dd>
+            <dt
+              class="slds-item_label slds-text-color_weak slds-truncate"
+              title="Skills"
+            >
+              Skills
+            </dt>
+            <dd
+              class="slds-item_detail slds-truncate"
+              title="Description for second label"
+            >
+              ML;DS
+            </dd>
+          </dl>
+        </lightning-card>
+      </div>
+      <div>
+        <hr />
+        <lightning-card>
+          #shadow-root(open)
+            <slot />
+            <slot
+              name="actions"
+            />
+            <slot
+              name="footer"
+            />
+            <slot
+              name="title"
+            />
+          <dl
+            class="slds-list_horizontal slds-wrap"
+          >
+            <dt
+              class="slds-item_label slds-text-color_weak slds-truncate"
+              title="Name"
+            >
+              Name:
+            </dt>
+            <dd
+              class="slds-item_detail slds-truncate"
+              title="Description for first label"
+            >
+              Rakesh
+            </dd>
+            <dt
+              class="slds-item_label slds-text-color_weak slds-truncate"
+              title="Team"
+            >
+              Team
+            </dt>
+            <dd
+              class="slds-item_detail slds-truncate"
+              title="Description for second label"
+            >
+              a0B2w000003hMtkEAE
+            </dd>
+            <dt
+              class="slds-item_label slds-text-color_weak slds-truncate"
+              title="Skills"
+            >
+              Skills
+            </dt>
+            <dd
+              class="slds-item_detail slds-truncate"
+              title="Description for second label"
+            >
+              AI
+            </dd>
+          </dl>
+        </lightning-card>
+      </div>
+    </lightning-card>
+</c-team-list>
+`;
+
+exports[`c-team-list should render 1`] = `
+<c-team-list>
+  #shadow-root(open)
+    <lightning-card>
+      #shadow-root(open)
+        <slot />
+        <slot
+          name="actions"
+        />
+        <slot
+          name="footer"
+        />
+        <slot
+          name="title"
+        />
+      <h3
+        slot="title"
+      >
+        <lightning-icon>
+          #shadow-root(open)
+        </lightning-icon>
+        Member List
+      </h3>
+      <div
+        class="slds-card-body"
+      >
+        <lightning-combobox>
+          #shadow-root(open)
+        </lightning-combobox>
+      </div>
+    </lightning-card>
+</c-team-list>
+`;
+
+exports[`c-team-list should render all the teams in options in combobox 1`] = `
+<c-team-list>
+  #shadow-root(open)
+    <lightning-card>
+      #shadow-root(open)
+        <slot />
+        <slot
+          name="actions"
+        />
+        <slot
+          name="footer"
+        />
+        <slot
+          name="title"
+        />
+      <h3
+        slot="title"
+      >
+        <lightning-icon>
+          #shadow-root(open)
+        </lightning-icon>
+        Member List
+      </h3>
+      <div
+        class="slds-card-body"
+      >
+        <lightning-combobox>
+          #shadow-root(open)
+        </lightning-combobox>
+      </div>
+      <div>
+        <hr />
+        <lightning-card>
+          #shadow-root(open)
+            <slot />
+            <slot
+              name="actions"
+            />
+            <slot
+              name="footer"
+            />
+            <slot
+              name="title"
+            />
+          <dl
+            class="slds-list_horizontal slds-wrap"
+          >
+            <dt
+              class="slds-item_label slds-text-color_weak slds-truncate"
+              title="Name"
+            >
+              Name:
+            </dt>
+            <dd
+              class="slds-item_detail slds-truncate"
+              title="Description for first label"
+            >
+              Raghu
+            </dd>
+            <dt
+              class="slds-item_label slds-text-color_weak slds-truncate"
+              title="Team"
+            >
+              Team
+            </dt>
+            <dd
+              class="slds-item_detail slds-truncate"
+              title="Description for second label"
+            >
+              a0B2w000003hMtkEAE
+            </dd>
+            <dt
+              class="slds-item_label slds-text-color_weak slds-truncate"
+              title="Skills"
+            >
+              Skills
+            </dt>
+            <dd
+              class="slds-item_detail slds-truncate"
+              title="Description for second label"
+            >
+              AI;ML
+            </dd>
+          </dl>
+        </lightning-card>
+      </div>
+      <div>
+        <hr />
+        <lightning-card>
+          #shadow-root(open)
+            <slot />
+            <slot
+              name="actions"
+            />
+            <slot
+              name="footer"
+            />
+            <slot
+              name="title"
+            />
+          <dl
+            class="slds-list_horizontal slds-wrap"
+          >
+            <dt
+              class="slds-item_label slds-text-color_weak slds-truncate"
+              title="Name"
+            >
+              Name:
+            </dt>
+            <dd
+              class="slds-item_detail slds-truncate"
+              title="Description for first label"
+            >
+              Rahul
+            </dd>
+            <dt
+              class="slds-item_label slds-text-color_weak slds-truncate"
+              title="Team"
+            >
+              Team
+            </dt>
+            <dd
+              class="slds-item_detail slds-truncate"
+              title="Description for second label"
+            >
+              a0B2w000003hMtkEAE
+            </dd>
+            <dt
+              class="slds-item_label slds-text-color_weak slds-truncate"
+              title="Skills"
+            >
+              Skills
+            </dt>
+            <dd
+              class="slds-item_detail slds-truncate"
+              title="Description for second label"
+            >
+              ML;DS
+            </dd>
+          </dl>
+        </lightning-card>
+      </div>
+      <div>
+        <hr />
+        <lightning-card>
+          #shadow-root(open)
+            <slot />
+            <slot
+              name="actions"
+            />
+            <slot
+              name="footer"
+            />
+            <slot
+              name="title"
+            />
+          <dl
+            class="slds-list_horizontal slds-wrap"
+          >
+            <dt
+              class="slds-item_label slds-text-color_weak slds-truncate"
+              title="Name"
+            >
+              Name:
+            </dt>
+            <dd
+              class="slds-item_detail slds-truncate"
+              title="Description for first label"
+            >
+              Rakesh
+            </dd>
+            <dt
+              class="slds-item_label slds-text-color_weak slds-truncate"
+              title="Team"
+            >
+              Team
+            </dt>
+            <dd
+              class="slds-item_detail slds-truncate"
+              title="Description for second label"
+            >
+              a0B2w000003hMtkEAE
+            </dd>
+            <dt
+              class="slds-item_label slds-text-color_weak slds-truncate"
+              title="Skills"
+            >
+              Skills
+            </dt>
+            <dd
+              class="slds-item_detail slds-truncate"
+              title="Description for second label"
+            >
+              AI
+            </dd>
+          </dl>
+        </lightning-card>
+      </div>
+    </lightning-card>
+</c-team-list>
+`;
