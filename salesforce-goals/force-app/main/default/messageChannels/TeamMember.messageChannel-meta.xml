@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningMessageChannel xmlns="http://soap.sforce.com/2006/04/metadata">
+	<masterLabel>TeamMember</masterLabel>
+	<isExposed>true</isExposed>
+	<description>Message Channel for Members in a team.</description>
+	<lightningMessageFields>
+		<fieldName>name</fieldName>
+		<description>Identifier of the record issuing the message</description>
+	</lightningMessageFields>
+</LightningMessageChannel>

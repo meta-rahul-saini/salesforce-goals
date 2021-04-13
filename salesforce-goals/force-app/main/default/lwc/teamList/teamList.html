@@ -1,0 +1,31 @@
+<template>
+    <lightning-card if:true = {teamList}>
+        <h3 slot="title">
+            <lightning-icon icon-name="utility:connected_apps" size="small"></lightning-icon>
+            Member List
+        </h3>
+        <div class="slds-card-body">
+            <lightning-combobox
+            name="Team"
+            label="Select Team"
+            value={selectedTeam}
+            placeholder="Select Team"
+            options={teamList}
+            onchange={handleChange}
+            ></lightning-combobox>            
+        </div>
+        <div if:true={memberList} for:each={memberList} for:item="member" key={member.Id}>
+            <hr>
+            <lightning-card >
+                <dl class="slds-list_horizontal slds-wrap">
+                    <dt class="slds-item_label slds-text-color_weak slds-truncate" title="Name">Name:</dt>
+                    <dd class="slds-item_detail slds-truncate" title="Description for first label">{member.Name}</dd>
+                    <dt class="slds-item_label slds-text-color_weak slds-truncate" title="Team">Team</dt>
+                    <dd class="slds-item_detail slds-truncate" title="Description for second label">{member.Team__c}</dd>
+                    <dt class="slds-item_label slds-text-color_weak slds-truncate" title="Skills">Skills</dt>
+                    <dd class="slds-item_detail slds-truncate" title="Description for second label">{member.Skills__c}</dd>
+                  </dl>
+            </lightning-card>
+        </div>
+    </lightning-card>
+</template>
