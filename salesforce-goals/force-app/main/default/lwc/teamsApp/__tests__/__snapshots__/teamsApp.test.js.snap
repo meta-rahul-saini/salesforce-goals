@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`c-teams-app should render 1`] = `
+<c-teams-app>
+  #shadow-root(open)
+    <div
+      class="slds-card slds-p-around_medium"
+    >
+      <c-member-skills>
+        #shadow-root(open)
+      </c-member-skills>
+      <c-team-list>
+        #shadow-root(open)
+      </c-team-list>
+    </div>
+</c-teams-app>
+`;
